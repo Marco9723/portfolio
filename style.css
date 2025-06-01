@@ -12,6 +12,17 @@ body {
     padding: 2rem;
     text-align: center;
   }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
   
   section#projects {
     padding: 2rem;
@@ -37,6 +48,41 @@ body {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
   
+  section#work {
+    padding: 2rem;
+  }
+  
+  .work {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  section#certifications {
+    padding: 2rem;
+  }
+  
+  .certifications {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  section#skills {
+    padding: 2rem;
+  }
+  
+  .skills {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
   
   footer {
     text-align: center;
