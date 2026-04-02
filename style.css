@@ -59,6 +59,14 @@ body {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
   
+  .research {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
   section#work {
     padding: 2rem;
   }
