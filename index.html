@@ -1,207 +1,352 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio and CV</title>
+  <meta name="description" content="Marco Viviani – Music and Acoustic Engineer, Audio Developer and Researcher. Portfolio and CV." />
+  <title>Marco Viviani – Portfolio and CV</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Marco Viviani</h1>
-    <img src="Marco_Viviani.jpg" alt="Foto di Mario Rossi" class="profile-pic" />
-    <p>Music and Acoustic Engineer | Audio Developer | Freelance Researcher </p>
+  <header class="hero">
+    <div class="container">
+      <img src="Marco_Viviani.jpg" alt="Photo of Marco Viviani" class="profile-pic" />
+      <h1>Marco Viviani</h1>
+      <p class="tagline">Music and Acoustic Engineer | Audio Developer | Freelance Researcher</p>
+      <p class="hero-links">
+        <a href="https://github.com/Marco9723">GitHub</a>
+        <a href="https://www.linkedin.com/in/marco-viviani-042b62191">LinkedIn</a>
+        <a href="mailto:marcoviviani97@gmail.com">Email</a>
+      </p>
+    </div>
   </header>
 
-  <section id="about" style="text-align: center; padding: 40px 20px; background-color: #f0f0f0;">
-  <h2>About Me</h2>
-  <p style="max-width: 600px; margin: 0 auto;">
-    I'm a passionate and highly motivated engineer with a focus on audio technologies, machine learning and AI. 
-    My background combines classical signal processing and audio engineering with modern deep learning techniques. 
-    These interests of mine are born from a strong passion for music and playing. 
-    I enjoy solving real-world challenges through research and innovation. 
-    In addition, I have a strong background in mathematics and physics gained during my undergraduate studies.
-    Currently seeking opportunities that involve research and development in AI-driven music technologies 
-    or that align with my academic background and personal interests in audio, multimedia and engineering.
-  </p>
-  </section>
-
-
-  <section id="services">
-    <h2>Services</h2>
-    <div class="services">
-      <h3>Key Skill Areas:</h3>
-      <ul>
-      <li>Creating Plug-ins and other Audio Software</li>
-      <li>DSP Implementation and Research</li>
-      <li>Sound Analysis, Synthesis and Processing</li>
-      <li>Machine Learning & AI for Real-Time Audio, Music and Speech</li>
-      <li>Electronics and Electroacoustics for Audio Applications</li>
-      <li>Computer Music: Representations, Models, Languages and Tools</li>
-      <li>Acoustic Applications and Modeling</li>
-      <li>Finding and Fixing Bugs</li>
-      <li>Technical writing and teaching</li>
-      </ul>
-      <h3>Technologies and Tools I tipically use:</h3>
-      <ul>
-        <li>C / C++ / Python / Java / JavaScript / Matlab</li>
-        <li>JUCE</li>
-        <li>VST3 / ProTools </li>
-        <li>PyTorch / PyTorch Lightning / TensorFlow / ONNX</li>
-      </ul>
-
+  <nav class="topnav" aria-label="Sections">
+    <div class="container">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#work">Work</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Skills</a>
     </div>
-  </section>
+  </nav>
 
-  <section id="education">
-    <h2>Education</h2>
-    <div class="education">
-      <h3>Master’s Degree in Music & Acoustic Engineering - Politecnico di Milano</h3>
-      <p>ICT and Software Engineer with specialized expertise in the Audio, Acoustics and Music Sectors, supported by a strong IT background. 
-        Areas of study include Software Engineering, Multimedia Signal Processing, Acoustics, Computer Music and Plug-in Development, Sound Analysis, Synthesis and Processing, ML & AI, Electronics and Electroacoustics. <br />
-        <a href="https://www.suono.polimi.it/en/"> https://www.suono.polimi.it/en/ </a></p>
-      </p>
-      <h3>Bachelor’s Degree in Mathematical Engineering - Politecnico di Milano</h3>
-      <p>Comprehensive training in core engineering disciplines, with a strong emphasis on advanced mathematics. The program focuses on
-        numerical computation and mathematical analysis, while also providing a solid foundation in economics, finance, statistics, and information technology. <br />
-        <a href="https://www.mate.polimi.it/"> https://www.mate.polimi.it/ </a>
-      </p>
-      <h3>High School Diploma in Science - Liceo Scientifico "Marie Curie"</h3>
-      <a href="https://www.liceomeda.it/"> www.liceomeda.it </a></p>
+  <main>
+    <section id="about" class="about">
+      <div class="container narrow">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate and highly motivated engineer with a focus on audio technologies, machine learning and AI.
+          My background combines classical signal processing and audio engineering with modern deep learning techniques.
+          These interests of mine are born from a strong passion for music and playing.
+          I enjoy solving real-world challenges through research and innovation.
+          In addition, I have a strong background in mathematics and physics gained during my undergraduate studies.
+          Currently seeking opportunities that involve research and development in AI-driven music technologies
+          or that align with my academic background and personal interests in audio, multimedia and engineering.
+        </p>
+      </div>
+    </section>
 
-    </div>
-  </section>
+    <section id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="card two-col">
+          <div>
+            <h3>Key Skill Areas</h3>
+            <ul>
+              <li>Creating Plug-ins and other Audio Software</li>
+              <li>DSP Implementation and Research</li>
+              <li>Sound Analysis, Synthesis and Processing</li>
+              <li>Machine Learning &amp; AI for Real-Time Audio, Music and Speech</li>
+              <li>Electronics and Electroacoustics for Audio Applications</li>
+              <li>Computer Music: Representations, Models, Languages and Tools</li>
+              <li>Acoustic Applications and Modeling</li>
+              <li>Finding and Fixing Bugs</li>
+              <li>Technical writing and teaching</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Technologies and Tools I typically use</h3>
+            <ul>
+              <li>C / C++ / Python / Java / JavaScript / Matlab</li>
+              <li>JUCE</li>
+              <li>VST3 / ProTools</li>
+              <li>PyTorch / PyTorch Lightning / TensorFlow / ONNX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="research">
-    <h2>Research Experience</h2>
-    <div class="research">
-      <h3>Research Internship on Automatic Chord Recognition</h3>
-      <p> Remote Research Internship, School of Computing and Information Technology, Great Bay University, China, Dongguan. Supervised by Dr. Yaolong Yu, Assistant Professor. <br />
-         </p>
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
 
-      <h3>Master's Thesis</h3>
-      <p>A year of research (2023 - 2024) for the Master's thesis entitled: “Hybrid Packet Loss Concealment for Speech Applications Based on Linear Predictive Coding and Deep Residual Learning.” <br />
-        Hybrid PLC technique where a feed-forward neural network and an autoregressive model cooperate in order to reconstruct the lost samples (unpublished). <br />
-        <a href="https://github.com/Marco9723/PLC_Thesis">GitHub</a> | <a href=https://ispl.deib.polimi.it/> ISPL PoliMi</a> </p>
+          <article class="entry">
+            <div class="meta"><span class="date">Sep 2021 – Oct 2024</span><span class="place">Milano, Italy</span></div>
+            <div class="body">
+              <h3>Master's Degree in Music &amp; Acoustic Engineering</h3>
+              <p class="org">Politecnico di Milano · <a href="https://www.suono.polimi.it/en/">Programme website</a></p>
+              <p>Top-ranked Italian public university in Engineering. ICT and Software Engineer with specialized expertise in the Audio, Acoustics and Music sectors, supported by a strong IT background.</p>
+              <p><strong>Relevant courses:</strong> Software Engineering, Multimedia Signal Processing, Acoustics, Computer Music and Plug-in Development, Sound Analysis, Synthesis and Processing, Electronics, Electroacoustics, ML and AI.</p>
+            </div>
+          </article>
 
-      <h3>Research project for "Music and Acoustic Engineering Capstone" course, Politecnico di Milano</h3>
-      <p> Research project aimed at studying the performance of the PARCNet packet loss concealment model in the speech domain (unpublished). <br />
-          <a href="Packet_loss_concealment_final_report.pdf"> Research Paper </a>
-         </p>
+          <article class="entry">
+            <div class="meta"><span class="date">Sep 2016 – Sep 2021</span><span class="place">Milano, Italy</span></div>
+            <div class="body">
+              <h3>Bachelor's Degree in Mathematical Engineering</h3>
+              <p class="org">Politecnico di Milano · <a href="https://www.mate.polimi.it/">Programme website</a></p>
+              <p>Top-ranked Italian public university in Engineering. Comprehensive training in core engineering disciplines, with a strong emphasis on advanced mathematics. The program focuses on numerical computation and mathematical analysis, while also providing a solid foundation in economics, finance, statistics, and information technology.</p>
+              <p><strong>Relevant courses:</strong> Calculus, Algebra, Physics, Statistics, Numerical Mathematics, Partial Differential Equations, Mechanics.</p>
+              <p><strong>Thesis:</strong> “The size of online social networks is reflected in the structure of the human brain”.</p>
+            </div>
+          </article>
 
-    </div>
-  </section>
+          <article class="entry">
+            <div class="meta"><span class="date">Nov 2025</span><span class="place">Como, Italy</span></div>
+            <div class="body">
+              <h3>ALCM Diploma – Performance (Electric Guitar), Upper Level</h3>
+              <p class="org">London College of Music (University of West London)</p>
+              <ul>
+                <li>Advanced performance qualification equivalent to Level 5 (RQF)</li>
+                <li>Awarded with an Upper Level result</li>
+                <li>Diploma obtained after 10+ years of studying the instrument</li>
+              </ul>
+            </div>
+          </article>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>LSTM Gear</h3>
-      <p>LSTM GEAR is a new plugin that emulates electric guitar effects using neural models in C++ through blackbox modelling of analog pedals. <br />
-        This work also contains a report on the new and promising RTNeural library for neural models implemented in C++. <br />
-        <a href="https://github.com/Marco9723/STMAE-project">GitHub</a> | <a href=https://www.youtube.com/watch?v=GoWgHEdeOak> YouTube</a> </p>
-      </p>
+          <article class="entry">
+            <div class="meta"><span class="date">Sep 2011 – Sep 2016</span><span class="place">Meda (MB), Italy</span></div>
+            <div class="body">
+              <h3>High School Diploma in Science</h3>
+              <p class="org">Liceo Scientifico “Marie Curie” · <a href="https://www.liceomeda.it/">School website</a></p>
+            </div>
+          </article>
 
-      <h3>Kinetic Sonic Performer</h3>
-      <p>"Kinetic Sonic Performer" is a project built on a full-fledged model designed to foster continuous interaction between the user and the system. 
-        It thrives on learning and adaptation to ensure an engaging experience. The fundamental idea is to enable individuals to generate music by moving their bodies, where artists craft unique interactive systems. <br />
-        <a href="https://github.com/Marco9723/KINETIC-SONIC-PERFORMER">GitHub</a> | <a href=https://github.com/rickykubler/KINETIC-SONIC-PERFORMER/blob/main/CPAC_ProjectReport.pdf> Report</a> </p>
-      </p>
+        </div>
+      </div>
+    </section>
 
-      <h3>PolyLooper</h3>
-      <p>Polylooper is web app to help the user in the creation of polyrhythms.<br />
-        <a href="https://github.com/Marco9723/polylooper">GitHub</a> | <a href=https://www.youtube.com/watch?v=2xFcgkzgyH8> YouTube</a> </p>
-      </p>
+    <section id="research">
+      <div class="container">
+        <h2>Research Experience</h2>
+        <div class="timeline">
 
-      <h3>Hooktheory_to_kern_converter</h3>
-      <p>The goal of this script is to convert songs from the HookTheory dataset into the corrisponding **kern file. 
-        For melodies this is done by using MIDI notation as reference. The code permits to select a song from the dataset and convert it 
-        in the corresponding **kern format.<br />
-        <a href="https://github.com/Marco9723/Hooktheory_to_kern_converter">GitHub</a> </p>
-      </p>
+          <article class="entry">
+            <div class="meta"><span class="date">Mar 2026 – In progress</span><span class="place">Remote, Dongguan (CN)</span></div>
+            <div class="body">
+              <h3>Research Internship on Automatic Chord Recognition</h3>
+              <p class="org">School of Computing and Information Technology, Great Bay University, Dongguan, China</p>
+              <ul>
+                <li>Music Information Retrieval researcher (Automatic Chord Recognition)</li>
+                <li>Supervised by Dr. Yaolong Ju, Assistant Professor</li>
+              </ul>
+            </div>
+          </article>
 
-      <h3>Other Works and Projects</h3>
-      <p>Check out my Github for more projects! Currently some repositories under reorganization.<br />
-        <a href="https://github.com/Marco9723">GitHub</a> </p>
-      </p>
+          <article class="entry">
+            <div class="meta"><span class="date">Nov 2023 – Sep 2024</span><span class="place">Milano, Italy</span></div>
+            <div class="body">
+              <h3>Master's Thesis</h3>
+              <p class="org">Politecnico di Milano</p>
+              <p>“Hybrid Packet Loss Concealment for Speech Applications Based on Linear Predictive Coding and Deep Residual Learning.”
+                Hybrid PLC technique where a feed-forward neural network and an autoregressive model cooperate in order to reconstruct the lost samples (unpublished).</p>
+              <p class="links">
+                <a href="https://github.com/Marco9723/PLC_Thesis">GitHub</a>
+                <a href="https://www.politesi.polimi.it/handle/10589/226976">Thesis (Politesi)</a>
+                <a href="https://ispl.deib.polimi.it/">ISPL PoliMi</a>
+              </p>
+            </div>
+          </article>
 
-    </div>
-  </section>
+          <article class="entry">
+            <div class="meta"><span class="date">Capstone course</span><span class="place">Politecnico di Milano</span></div>
+            <div class="body">
+              <h3>Research project for “Music and Acoustic Engineering Capstone”</h3>
+              <p>Research project aimed at studying the performance of the PARCNet packet loss concealment model in the speech domain (unpublished).</p>
+              <p class="links"><a href="Packet_loss_concealment_final_report.pdf">Research Paper</a></p>
+            </div>
+          </article>
 
-  <section id="work">
-    <h2>Work Experience</h2>
-    <div class="work">
-      <h3>Full-time Middle School Teacher at Istituto Comprensivo Statale "Armando Diaz", Meda (MB) - Plesso “A. Frank” </h3>
-      <a href="https://icdiazmeda.edu.it/">https://icdiazmeda.edu.it/</a>
-      <p style="font-size: smaller;">October 2021 - June 2022. Via Giovanni XXIII, 6, 20821, Meda (MB), Italia</p>
-      <p></p>
-      <h3>Full-time High School Teacher of Mathematics and Physics at Liceo “Giuseppe Parini”, Seregno (MB), secondary school</h3>
-      <a href="https://www.liceopariniseregno.edu.it/">https://www.liceopariniseregno.edu.it/</a>
-      <p style="font-size: smaller;">September 2023 - June 2024, Via Gramsci, 17, 20831 Seregno (MB), Italy</p>
-      <p></p>
-      <h3>Full-time High School Teacher of Computer Science, Mathematics and Physics at Liceo “Collegio Ballerini”, Seregno (MB), secondary school</h3>
-      <a href="https://www.collegioballerini.it/">https://www.collegioballerini.it/</a>
-      <p style="font-size: smaller;">September 2024 - June 2025, Via Giuseppe Verdi, 77, 20831 Seregno (MB), Italy</p>
-      <p></p>
-    </div>
-  </section>
-
-  <section id="certifications">
-    <h2>Other Certifications</h2>
-    <div class="certifications">
-      <h3>Deep Learning Specialization by DeepLearning.AI, Coursera - 5 course series</h3>
-      <p>Neural Networks and Deep Learning, Improving Deep Neural Networks: <br />
-        Hyperparameter Tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models</p>
-
-      <h3>ALCM Diploma – Performance (Electric Guitar), Upper Level London College of Music (University of West London)</h3>
-      <p>Advanced performance qualification equivalent to Level 5 (RQF). Awarded with an Upper Level result </p>
+        </div>
+      </div>
+    </section>
 
 
-    </div>
-  </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card project">
+            <h3>LSTM Gear</h3>
+            <p>LSTM GEAR is a new plugin that emulates electric guitar effects using neural models in C++ through blackbox modelling of analog pedals. This work also contains a report on the new and promising RTNeural library for neural models implemented in C++.</p>
+            <p class="links">
+              <a href="https://github.com/Marco9723/STMAE-project">GitHub</a>
+              <a href="https://www.youtube.com/watch?v=GoWgHEdeOak">YouTube</a>
+            </p>
+          </article>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-      <h3> Digital Skills</h3>
-      <ul>
-      <li>Knowledge of Microsoft Office package (ECDL Certification - Eropean Computer Driving License).</li>
-      <li>Programming in C, C++, Matlab, Python, Java, Javascript, HTML.</li>
-      <li>Machine Learning and Deep Learning (Multimedia, Audio and Computer Vision).</li>
-      <li>PyTorch, Pytorch Lightning, TensorFlow.</li>
-      <li>JUCE and Development of Digital Plugins for Audio and Multimedia Applications.</li>
-      <li>Knowledge of Classical Internet and IoT protocols.</li>
-      <li>Git and Github.</li>
-      <li>Spreadsheets: Excel.</li>
-      <li>Database Management Systems: Access, SQL.</li>
-      <li>TouchDesigner.</li>
-      <li>React Basics.</li>
-      <li>Use of DAWs (Ableton, Pro Tools).</li>
-      </ul>
-      <h3> Soft Skills</h3>
-      <ul>
-      <li>Communication and Teamwork</li>
-      <li>Professionalism, Accountability and Commitment</li>
-      <li>Quick Learner</li>
-      <li>Efficiency</li>
-      <li>Problem Solving</li>
-      <li>Leadership </li>
-      <li>Conflict Management</li>
-      <li>Public Speaking</li>
-      <li>Customer Service</li>
-      <li>Adaptability</li>
-      <li>Listening</li>
-      </ul>
-      <p></p>
-      <h3> Language Skills</h3>
-      <ul>
-      <li>English: advanced level (TOEIC English Test - Eas Milan) </li>
-      <li>Native language: Italian </li>
-      </ul>
-    </div>
-  </section>
+          <article class="card project">
+            <h3>MuQ-BTC</h3>
+            <p>MuQ-BTC is an Automatic Chord Recognition (ACR) model developed as part of a research collaboration with Great Bay University (Dongguan, China), under the supervision of Dr. Yaolong Ju, Assistant Professor. The model was also submitted to the MIREX 2026 challenge, where it demonstrated excellent results and confirmed the effectiveness of the newly proposed ACR pipeline.</p>
+            <p class="links">
+              <a href="https://music-ir.org/mirex/wiki/2026:Audio_Chord_Estimation_Results">MIREX</a>
+              <a href="https://futuremirex.com/demos/audio-chord-estimation-2026/">Interactive demo</a>
+            </p>
+          </article>
+
+          <article class="card project">
+            <h3>Kinetic Sonic Performer</h3>
+            <p>“Kinetic Sonic Performer” is a project built on a full-fledged model designed to foster continuous interaction between the user and the system. It thrives on learning and adaptation to ensure an engaging experience. The fundamental idea is to enable individuals to generate music by moving their bodies, where artists craft unique interactive systems.</p>
+            <p class="links">
+              <a href="https://github.com/Marco9723/KINETIC-SONIC-PERFORMER">GitHub</a>
+              <a href="https://github.com/rickykubler/KINETIC-SONIC-PERFORMER/blob/main/CPAC_ProjectReport.pdf">Report</a>
+            </p>
+          </article>
+
+          <article class="card project">
+            <h3>PolyLooper</h3>
+            <p>Polylooper is a web app to help the user in the creation of polyrhythms.</p>
+            <p class="links">
+              <a href="https://github.com/Marco9723/polylooper">GitHub</a>
+              <a href="https://www.youtube.com/watch?v=2xFcgkzgyH8">YouTube</a>
+            </p>
+          </article>
+
+          <article class="card project">
+            <h3>Lightweight Publish–Subscribe Protocol for TinyOS</h3>
+            <p>Designed and implemented a lightweight publish–subscribe communication protocol inspired by MQTT in TinyOS. The protocol was evaluated through simulations on a star-shaped wireless network comprising eight client nodes connected to a PAN coordinator, which served as the central broker for message distribution. The project focused on implementing an efficient messaging architecture for resource-constrained wireless sensor networks and validating its operation in a simulated environment.</p>
+          </article>
+
+          <article class="card project">
+            <h3>Hooktheory_to_kern_converter</h3>
+            <p>The goal of this script is to convert songs from the HookTheory dataset into the corresponding **kern file. For melodies this is done by using MIDI notation as reference. The code permits to select a song from the dataset and convert it in the corresponding **kern format.</p>
+            <p class="links"><a href="https://github.com/Marco9723/Hooktheory_to_kern_converter">GitHub</a></p>
+          </article>
+
+          <article class="card project wide">
+            <h3>Other Works and Projects</h3>
+            <p>Check out my GitHub for more projects! Currently some repositories under reorganization.</p>
+            <p class="links"><a href="https://github.com/Marco9723">GitHub</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+
+          <article class="entry">
+            <div class="meta"><span class="date">Oct 2021 – Jun 2026</span><span class="place">Meda – Seregno (MB), Italy</span></div>
+            <div class="body">
+              <h3>Teacher of Mathematics, Physics &amp; Computer Science</h3>
+              <p class="org">Middle and high schools · full-time</p>
+              <p>Taught across multiple schools while completing my Master's degree and after. Developed communication and organizational skills and responsibility as a full-time educator.</p>
+              <ul class="schools">
+                <li><strong>Middle School Teacher</strong>, Istituto Comprensivo Statale “Armando Diaz”, Meda (MB) – Plesso “A. Frank”. <span class="small">Oct 2021 – Jun 2022.</span> <a href="https://icdiazmeda.edu.it/">Website</a></li>
+                <li><strong>High School Teacher of Mathematics and Physics</strong>, Liceo “Giuseppe Parini”, Seregno (MB). <span class="small">Sep 2023 – Jun 2024.</span> <a href="https://www.liceopariniseregno.edu.it/">Website</a></li>
+                <li><strong>High School Teacher of Computer Science, Mathematics and Physics</strong>, Liceo “Collegio Ballerini”, Seregno (MB). <span class="small">Sep 2024 – Jun 2026.</span> <a href="https://www.collegioballerini.it/licei/le-persone/">Website</a></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="meta"><span class="date">5–9 Nov 2023</span><span class="place">Milan, Italy</span></div>
+            <div class="body">
+              <h3>Conference Volunteer – ISMIR 2023</h3>
+              <p>Volunteered at the 24th International Society for Music Information Retrieval Conference (ISMIR 2023), contributing to the organization and support of the international MIR research community.</p>
+              <p class="links"><a href="https://ismir2023.ismir.net/organizers/">ISMIR 2023</a></p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="meta"><span class="date">Politecnico di Milano</span><span class="place">Milan, Italy</span></div>
+            <div class="body">
+              <h3>Polifonia – Politecnico di Milano Music Association</h3>
+              <p>Actively contributed to the activities of Polifonia, the music association of Politecnico di Milano, through participation in musical performances, event organization and support, and the production of music videos.</p>
+              <p class="links">
+                <a href="https://www.polifoniapolimi.it/chi-siamo">Polifonia</a>
+                <a href="https://youtu.be/MoPZIhT2OCI?si=_6eSK_9lmOZ-0qqN">Video 1</a>
+                <a href="https://youtu.be/I2ALTHMqi14?si=UdfhQxSKTweHYM1k">Video 2</a>
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <div class="container">
+        <h2>Other Certifications</h2>
+        <div class="card">
+          <h3>Deep Learning Specialization by DeepLearning.AI, Coursera – 5 course series</h3>
+          <p>Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models.</p>
+
+          <h3>ALCM Diploma – Performance (Electric Guitar), Upper Level – London College of Music (University of West London)</h3>
+          <p>Advanced performance qualification equivalent to Level 5 (RQF). Awarded with an Upper Level result, after 10+ years of studying the instrument (Nov 2025).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid three">
+          <div class="card">
+            <h3>Digital Skills</h3>
+            <ul>
+              <li>Knowledge of the entire Microsoft Office package (ECDL Certification – European Computer Driving License).</li>
+              <li>Programming in C, C++, Matlab, Python, Java, JavaScript, HTML.</li>
+              <li>Machine Learning and Deep Learning (in particular multimedia, audio and image applications).</li>
+              <li>PyTorch, PyTorch Lightning, TensorFlow.</li>
+              <li>JUCE and development of digital plugins for audio and multimedia applications.</li>
+              <li>Knowledge of classical Internet and IoT protocols.</li>
+              <li>Git and GitHub.</li>
+              <li>LaTeX, Excel, Access, SQL.</li>
+              <li>TouchDesigner.</li>
+              <li>React Basics.</li>
+              <li>Use of DAWs (Ableton, Pro Tools).</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Communication and Teamwork</li>
+              <li>Professionalism, Accountability and Commitment</li>
+              <li>Quick Learner</li>
+              <li>Efficiency</li>
+              <li>Solid problem-solving mindset</li>
+              <li>Clear-headed in challenging situations</li>
+              <li>Leadership</li>
+              <li>Conflict Management</li>
+              <li>Public Speaking</li>
+              <li>Customer Service</li>
+              <li>Adaptability</li>
+              <li>Listening</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Language Skills</h3>
+            <ul>
+              <li>Italian: native language</li>
+              <li>English: advanced level (TOEIC English Test – Eas Milan)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>Contact me: marcoviviani97@gmail.com | <a href="https://github.com/Marco9723">GitHub</a> | <a href="https://www.linkedin.com/in/marco-viviani-042b62191">LinkedIn</a> </p> 
+    <p>Contact me: <a href="mailto:marcoviviani97@gmail.com">marcoviviani97@gmail.com</a> · <a href="https://github.com/Marco9723">GitHub</a> · <a href="https://www.linkedin.com/in/marco-viviani-042b62191">LinkedIn</a></p>
   </footer>
 
   <script src="script.js"></script>
